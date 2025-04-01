@@ -1,0 +1,29 @@
+/* Add styles here */
+:root{
+    --colorverde: #AFF33F;
+    --colormorado: #6B36EE;
+    --colorfondo: #1E1E1E;
+    --colorclaro: #FCF9FF;
+    --fuentexo: 'Exo';
+    --fuentegarnd: 'EB Garamond'
+}
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+.fondo{
+    background-color: var(--colorfondo);
+    background-size: auto;
+}
+.menu{
+    list-style: none;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+.nombre{font-family: var(--fuentexo);
+color: var(--colorverde);}
+
+h2{font-family: var(--fuentexo);}
+h4{font-family: var(--fuentegarnd);}
